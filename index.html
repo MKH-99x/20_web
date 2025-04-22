@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Login Form</h1>
+    </header>
+    
+    <main>
+        <div class="box1">        
+            <form action="#submit" onsubmit="func1(event)">
+
+                <h2>Create Your Account</h2>
+
+                <label for="iu" class="l">USERNAME :</label>
+                <input type="text" class="i" id="in" placeholder="username" title="Please fill the username" required autofocus>
+            
+                <label for="ip" class="l">PASSWORD :</label>
+                <input type="text" class="i" id="in1" placeholder="*********" title="Please fill the password" required>
+            
+                <label for="ipp" class="l">CONFIRM PASSWORD :</label>
+                <input type="text" class="i pp" id="in2" placeholder="*********" title="Please fill the password" required>
+
+                <p class="p">Don't have an account ? <a href="#SignUp">SignUp</a></p>
+
+                <button class="b">Login</button>
+                
+                <p>---------------OR---------------</p>
+
+                <div class="box2">
+                    <a href="https://www.google.com"><img src="/img1.3.jpg" alt="google" height="30px" width="30px"></a>
+
+                    <a href="https://www.facebook.com"><img src="/img1.1.jpg" alt="facebook" height="30px" width="30px"></a>
+
+                    <a href="https://www.linkedin.com"><img src="/img1.2.jpg" alt="linkedin" height="30px" width="30px"></a>
+                </div>
+
+            </form>
+        </div>
+     </main>
+
+     <footer>
+        <marquee direction="right" behaviour="scroll" scrollamount="10" class="p0">&copy;2025, Copyrights are reserved.</marquee>
+     </footer>
+
+     <script src="script.js"></script>
+</body>
+</html>
